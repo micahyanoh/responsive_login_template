@@ -8,17 +8,19 @@ class AppLoginField extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ConstrainedBox(
-        constraints: BoxConstraints(
+        constraints: const BoxConstraints(
           maxWidth: 400,
         ),
         child: TextField(
           decoration: InputDecoration(
-              contentPadding: EdgeInsets.all(27),
+              contentPadding: const EdgeInsets.all(27),
               enabledBorder: OutlineInputBorder(
-                  borderSide: BorderSide(color: Pallete.borderColor, width: 3),
+                  borderSide:
+                      const BorderSide(color: Pallete.borderColor, width: 3),
                   borderRadius: BorderRadius.circular(35)),
               focusedBorder: OutlineInputBorder(
-                  borderSide: BorderSide(color: Pallete.gradient2, width: 3),
+                  borderSide:
+                      const BorderSide(color: Pallete.gradient2, width: 3),
                   borderRadius: BorderRadius.circular(35)),
               hintText: hintText),
         ));
