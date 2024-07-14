@@ -12,11 +12,11 @@ class LoginScreen extends StatelessWidget {
           child: Column(
             children: [
               Image.asset('assets/images/signin_balls.png'),
-              Text(
+              const Text(
                 'Sign In',
                 style: TextStyle(fontWeight: FontWeight.bold, fontSize: 50),
               ),
-              Gap(50)
+              const Gap(50)
             ],
           ),
         ),
